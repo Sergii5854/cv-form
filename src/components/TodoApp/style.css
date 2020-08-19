@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.form input {
+  flex: 1;
+}
+
+.todos {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.todo.-completed span {
+  text-decoration: underline;
+}
+
+.todo button {
+  margin-left: auto;
+}
